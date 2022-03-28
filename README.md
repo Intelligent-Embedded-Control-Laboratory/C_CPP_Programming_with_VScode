@@ -115,24 +115,24 @@ gdb --version
 ![](https://i.imgur.com/JT7X5ip.jpg)
 
 * For C:
-``` C=1
+```c=1
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main() {
     printf("Hello\n");
     return 0;
 }
 ```
 
 * For C++:
-``` C++=1
+```cpp=1
 #include <iostream>
 
 using namespace std;
 
-int main(){
-    cout << "Hello\n";
+int main() {
+    cout << "Hello" << endl;
     return 0;
 }
 ```
